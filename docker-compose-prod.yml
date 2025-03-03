@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  frontend:
+    image: mixcmu/234-deploylab-frontend:latest
+    platform: linux/amd64
+    pull_policy: always
+    ports:
+      - "9999:80"
